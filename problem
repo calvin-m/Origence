@@ -1,0 +1,14 @@
+Develop a Microservices-Based E-commerce Platform
+Objective: Design and implement a microservices-based e-commerce platform in C#.
+Requirements:
+Decompose the application into services such as User, Product, Order, and Payment.
+Use ASP.NET Core for building the microservices.
+Implement inter-service communication using gRPC or REST.
+Ensure each service is independently deployable and scalable.
+Implement user authentication and authorization to manage different user roles (e.g., admin, customer). 
+Write unit tests to verify the functionality of each service.
+Concepts to cover:
+- Dependency Inject
+- Logging & Exception Handling
+- Mocking database calls or any external service calls
+- How to change an implementation without changing the caller code, like changing a Mock implementation to a real implementation
